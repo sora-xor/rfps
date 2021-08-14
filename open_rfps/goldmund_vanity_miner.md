@@ -1,6 +1,6 @@
 **Proposal Due Date**
 
-September 14, 2021. 20:00 GMT+0
+August 28th, 2021. 20:00 GMT+0
 
 **Proposal Overview**
 
@@ -112,3 +112,23 @@ Also out of scope at this stage but somewhat in mind for next release or include
 - Set string search-space start position at 4 instead of 3. (cn[R,S,T,U,V,W xor X]<start_here> instead of cn<start_here_with_R,S,T,U,V,W xor X>)
 - Expand the search-space to the entire string (not just the beginning after cn<here> or cnX<here> or cn_FIXED_LENGTH_<here> but cn[_ANYWHERE_])
 - More than 12 words (15, 18, 21, and 24)
+   
+  
+  
+** Project Due Date **
+
+September 14th, 2021. 20:00 GMT+0
+
+Or 2 weeks from the time at which proposal is accepted if that is after the 28th of August.
+  
+** Budget Amount **
+
+   18 XOR
+  
+** Late Delivery Penalty **
+  
+Up to 3 days too late: 1 XOR
+Up to 7 days too late: 3 XOR
+Up to 14 days too late: 9 XOR
+Up to 21 days too late: 15 XOR
+Later than 21 days too late: 18 XOR
