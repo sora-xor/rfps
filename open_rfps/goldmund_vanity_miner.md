@@ -8,11 +8,13 @@ The Goldmund Vanity Miner utility lets you input a desired address pattern and o
 
 Additionally it gives you the 12 word mnemonics for backup and portability purposes.
 
-Today it's already possible to generate/mine vanity substrate addresses with the subkey utility but without the mnemonics for easy backup and portability here: 
+It's already possible to mine vanity substrate addresses but no mnemonics for easy backup and portability: 
 
 https://github.com/paritytech/substrate/tree/013c1ee167354a08283fb69915fda56a62fee943/bin/utils/subkey
 
-Or on the web here: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts/vanity
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fws.sora2.soramitsu.co.jp#/accounts/vanity
+
+And there is no compiled executables with documented compilation for easy sha256 verification for everyday community members.
 
 **Proposal Goals (list with explanations where possible)**
 
@@ -22,47 +24,80 @@ Executables are compiled for easy access and the compilation guides together wit
 
 **Scope of Work (describe the scope of work in as much detail as possible)**
 
-Most work has been done already by writing a c-code wrapper and getting to know the Rust toolchain.
-
-It's not really a big deal - which is why I wondered why it has been ommited from the subkey development in the first place.
-
-I don't think it's enought to submit a pull request or issue to subkey vanity generator because this proposal also includes offline binaries with a guide.
-
-The rest of the scope of work is outlined in this document. Specifically within "Evaluation Metrics and Criteria" and "Submission Method"
+See "Evaluation Metrics and Criteria" and "Submission Method"
 
 **Current Roadblocks and Barriers to Success**
 
-I have developed a multithreaded c code wrapper "quick and dirty" that compiles into .bin binaries.
-But it has to be ported to Rust for later use in WebAssembly Web, Apps (destop+mobile).
-Also a proper documentation is important.
+I have developed a multithreaded c code wrapper "quick and dirty" that compiles into .bin binaries already.
 
-It's possible to do without the mnemonic today but it's too much for most users to install rust, subkey, ... 
-Also not everyone wants to trust a polkadot.js.org online website access to generate their secret keys. 
-Trusted offline binaries with SHA256 hashes to them, wiki guide, clear source code and compile guides are the way to go in my opinion.
+It has to be ported and optimized for Rust for later use in WebAssembly Web, Apps (destop+mobile).
 
-I will have to learn Rust. But I don't see this as a roadblock.
+Proper user documentation is important for usability and trust. Most users are not able to install rust, subkey, ...
 
-I would need 2 weeks but it could be done faster for sure. 
-
-I set the date to 14. September, such that there is time to vote on the proposal first and discuss if necessary.
+Trusted offline binaries with SHA256 hashes to them, wiki guide, rust source code and compile guides are the way to go.
 
 **Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
 
-Rust crate / source code should be compilable into .exe and .bin by following the compile docs and the SHA256 hash should match.
+Rust crate / source code should be compilable into .exe and .bin by following the compile docs and the published SHA256 hash should match the binaries.
 
-Linux terminal or Windows cmd executables should output values in the following format: 
+Linux terminal or Windows cmd executables should output values in the following format... 
 
 Public Key:   cn...
 Private Key:  0x...
 Seed:         bla1 bla2 bla3 ... bla12
 
-And do so when called in the following way (example search string here is 'VAL' - note that the search string is limitted to start with one of R,S,T,U,V,W,X:
+... when called in the following way:
+
+EXAMPLE 1:
 
 cmd:
 .\goldmund.exe VAL \<ENTER\>
 
+
+Public Key:   cnVAL...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
 terminal:
 .\goldmund.bin VAL \<ENTER\>
+
+
+Public Key:   cnVAL...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
+The search string 'VAL' has been chosen as one of two examples.
+
+Note that the cn... address is limitted to start with one of the following characters after 'cn' R,S,T,U,V,W,X.
+
+EXAMPLE 2: 
+
+I am actually not entirely sure if the sample outputs are valid, because some characters appear less frequently than others.
+The general idea is that if the string does not start with any of R,S,T,U,V,W,X then the first character after cn is treated as any of them.
+
+cmd:
+.\goldmund.exe CER \<ENTER\>
+
+Public Key:   cnVCER...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
+Public Key:   cnSCER...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
+Public Key:   cnRCER...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
+terminal:
+.\goldmund.bin VAL \<ENTER\>
+
+
+Public Key:   cnVAL...
+Private Key:  0x...
+Seed:         bla1 bla2 bla3 ... bla12
+
 
 **Submission Requirements**
 
@@ -73,7 +108,7 @@ Pull requests to paths as outlined within Submission Method done before Due Date
 **Submission Method (which folder on GitHub to submit a proposal to)**
 
 Scope of work includes 
-- Rust crate / source code,
+- Rust crate, Rust source code,
 - Windows (.exe) and Linux (.bin) command line exectuables, 
 - their SHA256 hashes, 
 - compile guides for Windows and Linux.
@@ -109,23 +144,20 @@ Also out of scope at this stage but somewhat in mind for next release or include
 
 - Leatspeak search-range expansion flag
 - Set string search-space start position
-- Set string search-space start position at 4 instead of 3. (cn[R,S,T,U,V,W xor X]<start_here> instead of cn<start_here_with_R,S,T,U,V,W xor X>)
-- Expand the search-space to the entire string (not just the beginning after cn<here> or cnX<here> or cn_FIXED_LENGTH_<here> but cn[_ANYWHERE_])
+- Expand the search-space to the entire string
 - More than 12 words (15, 18, 21, and 24)
-   
   
-  
-** Project Due Date **
+**Project Due Date**
 
 September 14th, 2021. 20:00 GMT+0
 
 Or 2 weeks from the time at which proposal is accepted if that is after the 28th of August.
   
-** Budget Amount **
+**Budget Amount**
 
    18 XOR
   
-** Late Delivery Penalty **
+**Late Delivery Penalty**
   
 Up to 3 days too late: 1 XOR
 Up to 7 days too late: 3 XOR
