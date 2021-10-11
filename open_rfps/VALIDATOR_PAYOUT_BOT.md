@@ -6,9 +6,27 @@ We are a supporter of Sora project and we currently run a validator. We also run
 
 The key issue we see is the lack of economic incentive. While staking rewards are paid in VALs, all the transaction fees incurred by validators are in XORs. Based on the current swap price in Polkaswap, it is not economically worthwhile for potential validators to join and for current validators to trigger payouts in a timely fashion.
 
-## How we can help
+## Request for proposal
 
-To improve Sora validators' economic incentive, it is worthwhile to consider shifting the burden of rewards payout from validators to a bot supported by Sora's treasury. A side benefit is that it will also make nominators happy because they will never miss a payout.
+Proposal Due Date: Oct 31, 2021
+
+Proposal Overview: Make a Sora treasury supported payout bot to shift the burden of payout from validators.
+
+Proposal Goal: 1) Improve Sora validators' economic incentive; 2) Make nominators happy because they will never miss a payout.
+
+Scope of Work: 1) Develop an open-source bot script, 2) Host a server with cron jobs to trigger the payout script each era.
+
+Current Roadblocks and Barriers to Success: None at this moment.
+
+Evaluation Metrics and Criteria: 1) A developer can run the bot after following the instruction on README. 2) The payout script is triggered by the host server each era for all active Sora validators.
+
+Submission Requirements: An open-source GitHub repo
+
+Submission Method: An open-source GitHub repo
+
+######################################
+
+## Polkachu's Proposal
 
 We (Polkachu) have been running validators in Kusama, Polkadot and Polkadex for a while. We have a payout bot to trigger rewards payouts after each era automatically. We are not running the bot in Sora currently for the reason stated above. Rather, we batch payouts in Sora after a few days of delay.
 
@@ -46,3 +64,5 @@ We (Polkachu) have been running validators in Kusama, Polkadot, Polkadex and Sor
 1. The two Phases of the project can be reviewed separately. It is perfectly fine if Sora team wants to run the bot themselves while Polkachu will only complete Phase 1
 2. We think that it will be beneficial to the community if we mutually release a blog post on Medium and Twitter to announce this development once the project completes.
 3. We have noticed that Sora use custom types extensively on the basis of Substrate. We might need some dev support from Sora team to make sure we get those types right.
+
+Please feel free to reach out to us if you have questions: hello@polkachu.com
