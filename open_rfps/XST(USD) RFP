@@ -14,7 +14,7 @@ See "Evaluation Metrics and Criteria" and "Submission Method"
 Don’t overcollateralize the creation of synthetic assets, but instead just socialize risks (and possible gains) across all XOR holders. This is justifiable because burning or locking up XOR reduces the circulating supply, which can lead to supply shortages and price of XOR going up
 
 **Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
-Implement a stablecoin backed by XOR being creating a token called XST(USD), then create a XST(USD)-XOR liquidity source. This will be a special liquidity source where the price that buyers pay never deviates more than 1% higher or lower than the price of XOR-DAI. If the XST(USD)-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XST(USD) with XOR, then new XST(USD) can be minted/deminted when filling the orders, in order to maintain the peg within 1%.
+Implement a stablecoin backed by XOR being creating a token called XST(USD), then create a XST(USD)-XOR liquidity source. This will be a special liquidity source where the price that buyers pay never deviates more than 1% higher or lower than the price of XOR-DAI. If the XST(USD)-XOR price goes lower than DAI-XOR, then when the user is buying, new XOR will be minted and used to fill the order (similar to the token bonding curve). When buying XST(USD) with XOR, then new XST(USD) can be minted/deminted when filling the orders, in order to maintain the peg.
 
 **Submission Requirements**
 Fulfill evalualuation metrics and criteria
@@ -30,4 +30,4 @@ Pull requests to paths outlined within Submission Method before due date
 
 **Development Fee**
 
-333 XOR
+666 XOR
