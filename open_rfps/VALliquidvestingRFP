@@ -1,0 +1,30 @@
+**Proposal Due Date**
+1st December 2021
+**Proposal Overview**
+Implement derivative tokens tied to vested XOR/VAL airdrop rewards that can be sold and traded as a liquid staking derivative
+
+**Proposal Goals (list with explanations where possible)**
+Implement a new token based on vested rewards, to be referred as VRT (Vested Reward Token) for the remainder of this proposal. 
+Implement a system to transfer vesting ownership to VRT holder 
+Implement an underlying system to maintain VRT value based on minter's accrued vesting rewards
+
+**Scope of Work (describe the scope of work in as much detail as possible)**
+Token and underlying stack implementation
+Polkaswap UI implementation to mint tokens and marketplace implementation for trading/selling
+
+**Current Roadblocks and Barriers to Success**
+VAL vesting RFP must be completed in order to implement VRT 
+
+**Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
+VRT minting/trading/ UI implementations on Polkaswap
+Underlying technology merged in SORA repositories
+
+**Submission Requirements**
+Fulfill evaluation metrics and criteria.
+Pull requests to paths as outlined within Submission Method done before Due Date.
+
+**Submission Method (which folder on GitHub to submit a proposal to)**
+https://github.com/sora-xor/rfps
+
+**Project Due Date**
+25 December 2021
