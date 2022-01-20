@@ -1,5 +1,6 @@
 **Proposal Due Data**
 20th January, 2022
+
 **Proposal Overview**
 Creating a new decentralized forum that will have XOR as the native currency
 
@@ -13,6 +14,13 @@ buy and sell digital and non-digital goods using a contract system(at their own 
 The XOR will be used for all the payments in the forum (like subscriptions, contracts, paid stickers, etc).
 
 **Scope of Work (describe the scope of work in as much detail as possible)**
+All the technology that we may need to code the forum is available. Polkadot.js wallet seems to be compatible with whatever you have in our mind as team. 
+Would be great if we could use wallet connect for Fearless Wallet, Sora DAE and other mobile wallets. This may happen in the future.
+
+**Current roadblocks**
+None 
+
+**Evaluation metrics and criteria**
 - People will be able to post comments and threads by only signing messages with their wallets.
 
 - There will be sections such as Economy, Life, Code, Games, Tech, Science, Market, Cryptocurrencies, and many others.
@@ -35,11 +43,12 @@ The XOR will be used for all the payments in the forum (like subscriptions, cont
 
 - Sora Parliament will always be helpful with their new ideas for the forum.
 
-**Milestones** 
-Project to begin March 2022 and be ready for testing by July 2022 and released to the public tentatively once it's fully functional.
+- There will be various changes to the UI as the time goes by based on what community asks/likes.
 
-**Current roadblocks**
-None 
+- Some of the funds will be used to protect the servers from DDOS attacks, hopefully no additional resources will be needed.
+
+**Milestones** 
+Project to begin March 2022, be ready for testing at latest by July 2022, and released to the public once it's fully functional.
 
 **Deliverables**
 - A fully functional forum that uses XOR as its native currency.
@@ -48,11 +57,4 @@ control of the section, or else the council).
 - A contract system for the Marketplace.
 
 **Submission Method (which folder on GitHub to submit a proposal to**
-https://github.com/sora-xor/rfps
-
-**Project due date** 
-July 2022
-
-**Budget Amount**
-2500 XOR
-
+https://github.com/sora-xor/rfps/tree/master/open_rfps
