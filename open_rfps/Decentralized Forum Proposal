@@ -1,0 +1,58 @@
+**Proposal Due Data**
+20th January, 2022
+**Proposal Overview**
+Creating a new decentralized forum that will have XOR as the native currency
+
+**Proposal Goals (list with explanations where possible)**
+The main goal is to create a new decentralized forum that will be used by many people and will also bring new users to the Sora network. 
+The forum won't require registration by using email or any kind of KYC, people will be able to post threads and comments 
+by only signing messages with their wallets (polkadot.js). There are various other crypto-forums/platforms (i.e. bitcointalk) that have many million users. 
+Only last year over 20 million users (combined) registered to these forums. 
+There will be various sections in the forum but the very interesting one will be the Marketplace where people will freely trade, 
+buy and sell digital and non-digital goods using a contract system(at their own risk).
+The XOR will be used for all the payments in the forum (like subscriptions, contracts, paid stickers, etc).
+
+**Scope of Work (describe the scope of work in as much detail as possible)**
+- People will be able to post comments and threads by only signing messages with their wallets.
+
+- There will be sections such as Economy, Life, Code, Games, Tech, Science, Market, Cryptocurrencies, and many others.
+
+- To prevent spam posts/threads, it will be required each user to hold at least 40-50$ worth of XOR in their address (the equivalent amount of $ may change).
+
+- There will be an exclusive Sora and Polkaswap section in the forum so all the users can read about new updates and learn more about the network.
+
+- We will create a contract system for the Marketplace section, people will give a score for the quality of the products/services of the vendors after every deal.
+
+- The contracts will be paid in XOR, they'll be off-chain contracts in a server, in the future we may upgrade the contract system and they may be on-chain contracts to the public Sora's blockchain.
+
+- There will be groups owned by influencers/youtubers in order to bring more users, people will pay for subscriptions the same way they pay at other platforms, so they have access to each group.
+
+- Every group will have its section in the forum and only people who paid subscriptions will have access.
+
+- Subscriptions, group sales, contracts, stickers, and in general everything in the forum will be paid only with XOR.
+
+- We will be able to blacklist an address if they violated the T.O.S.
+
+- Sora Parliament will always be helpful with their new ideas for the forum.
+
+**Milestones** 
+Project to begin March 2022 and be ready for testing by July 2022 and released to the public tentatively once it's fully functional.
+
+**Current roadblocks**
+None 
+
+**Deliverables**
+- A fully functional forum that uses XOR as its native currency.
+- A section for Sora network that will be controlled by the Sora Parliament (Community can vote for the addresses that will have 
+control of the section, or else the council).
+- A contract system for the Marketplace.
+
+**Submission Method (which folder on GitHub to submit a proposal to**
+https://github.com/sora-xor/rfps
+
+**Project due date** 
+July 2022
+
+**Budget Amount**
+2500 XOR
+
