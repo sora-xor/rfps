@@ -12,6 +12,8 @@ Only last year over 20 million users (combined) registered to these forums.
 There will be various sections in the forum but the very interesting one will be the Marketplace where people will freely trade, 
 buy and sell digital and non-digital goods using a contract system(at their own risk).
 The XOR will be used for all the payments in the forum (like subscriptions, contracts, paid stickers, etc).
+To run the forum, me and my team will have to register a company, so we can pay all the people who will work for the project legally (coders, UI designers, mods, etc.), pay for
+the servers that will host the forum and also probably we will use some of the funds for marketing. I will write the proposed budget below.
 
 **Scope of Work (describe the scope of work in as much detail as possible)**
 All the technology that we may need to code the forum is available. Polkadot.js wallet seems to be compatible with whatever we have in our mind as team. 
@@ -58,3 +60,6 @@ control of the section, or else the council).
 
 **Submission Method (which folder on GitHub to submit a proposal to**
 https://github.com/sora-xor/rfps/tree/master/open_rfps
+
+**Budget amount**
+2500 XOR
