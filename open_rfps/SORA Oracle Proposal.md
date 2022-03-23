@@ -1,9 +1,9 @@
 **Proposal Due Date**
-February 2022
+August 2022
 
 **Proposal Overview**
 
-Implementation of oracles to provide relevant feeds of relatively small events about the offline world for on-chain usage such as TBC pricing, tokens linked to off-chain factors.
+Implementation of oracles to provide relevant feeds of events about the offline world for on-chain usage such as TBC pricing, tokens linked to off-chain factors.
 
 **Proposal Goals (list with explanations where possible)**
 
