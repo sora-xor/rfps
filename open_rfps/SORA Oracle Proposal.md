@@ -181,6 +181,6 @@ Pull requests to paths as outlined within Submission Method done before Due Date
 https://github.com/sora-xor/rfps/tree/master/open_rfps
 
 **Project Due Date**
-May 2022
+September 2022
 
 **Budget Amount**
