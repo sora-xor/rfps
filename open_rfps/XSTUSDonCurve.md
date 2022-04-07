@@ -75,6 +75,12 @@ This will give us a significantly higher chance to get awarded a gauge on Curve.
 A governance proposal for the Curve community (CRV holders) to vote on our gauge candidacy is being drafted, we first need more liquidity in the pool for a few weeks to have a chance.
 
 STEP 2:
+Mint $29,000 in XOR to buy at least 10,000 CRV. These 10,000 CRV need to be locked for 1 year in exchange for 2,500 veCRV. This amount is needed to be able to make an official governance proposal to the Curve DAO.
+
+STEP 3: 
+Optional: if voting on Curve governance proposal needs more votes, we can mint XOR to buy CRV and vote ourselves. 
+
+STEP 4:
 Once gauge has been awarded, 
 Mint 2 times bi-weekly $50k in XOR for the first 2 bribe rounds on Votium
 (2) mint 2 times bi-weekly $100k in XOR for the next 2 bribe rounds on Votium, 
