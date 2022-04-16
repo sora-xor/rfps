@@ -29,11 +29,9 @@ All the subscriptions for every Team-Group will be paid in XOR.
 Some of the Teams-Groups will be given for free to some of the most well-known content creators in the cryptospace (such as Youtubers and influencers).
 This section will help the forum and SORA as the Team-Group owners will advertise us to their fans.
 
-
 About the UI:
 Our vision is to create a digital city as background UI for the forum. As the users enter to a section, a digital car in the background will drive them
 to a different building in the city. 
-
 
 - Very interesting feature is that people will choose their own digital personas/characters among many we will create. These characters will be used as profile pictures.
   Every user will be a citizen in the digital city.
@@ -84,11 +82,10 @@ This of course will have to be decided and voted by the community.
 
 - Some of the funds will be used to protect the servers from DDOS attacks, hopefully no additional resources will be needed.
 
-
 **Milestones**
 Project to begin as soon as possible, be ready for testing at latest by September 2022, and released to the public once it's fully functional.
 
-  //The first Milestone will be proposed for funding AFTER the team delivers a video of the forum with the basic UI//
+ //The first Milestone will be proposed for funding AFTER the team delivers a video of the forum with the basic UI//
 
 - We will propose to get 10% of the total funding for:
 a) UI designing. The first step is to have the background ready so we will not face compatibility issues with the front and back-end coding of the forum.
@@ -117,16 +114,13 @@ The 45% of the total funding will be proposed and given after the team delivers 
 a) Forum App development (Android & iOS)
 b) IF wallet connect feature is available to Fearless wallet/and Sora DAE wallet, same feature will also be implemented to the forum.
 
-
 **Deliverables**
 - A functional forum that will work as described above and that uses XOR as its native currency.
 - A section for the Sora ecosystem. Council members will be the admins of this section.
 - A contract system for the Marketplace.
 
-
 **Submission Method**
 https://github.com/sora-xor/rfps/tree/master/open_rfps
-
 
 **Budget amount**
 250,000 XSTUSD
