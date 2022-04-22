@@ -66,9 +66,9 @@ forum. The current RFP will be updated so we provide more information about this
 
 **Scope of Work (describe the scope of work in as much detail as possible)**
 All the technology that we may need to create the forum is available. Polkadot.js wallet seems to be compatible with whatever we have in our mind as team. 
-For the Front-end, the team will use Angular (framework) using typescript, html/css.
-For the Back-end, the team will use NodeJS (framework) using typescript.
-For the Mobile Forum App, the team will use Flutter (framework) using dart, which will help us to have an Android and an iOS version.
+For the Front-end, the team will use Angular.
+For the Back-end, the team will use NodeJS.
+For the Mobile Forum App, the team will use Flutter.
 Would be great if we could use wallet connect for Fearless Wallet, Sora DAE and other mobile wallets. This hopefully will happen in the future (we added a wallet connect intergration
 in the last milestone).
 
