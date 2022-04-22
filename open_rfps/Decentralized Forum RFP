@@ -69,7 +69,7 @@ All the technology that we may need to create the forum is available. Polkadot.j
 For the Front-end, the team will use Angular.
 For the Back-end, the team will use NodeJS.
 For the Mobile Forum App, the team will use Flutter.
-Would be great if we could use wallet connect for Fearless Wallet, Sora DAE and other mobile wallets. This hopefully will happen in the future (we added a wallet connect intergration
+Would be great if we could use wallet connect for Fearless Wallet, Sora DAE and other mobile wallets. This hopefully will happen in the future (we added a wallet connect integration
 in the last milestone).
 
 
@@ -113,13 +113,13 @@ This of course will have to be decided and voted by the community.
 
 Project to begin as soon as possible, be ready for testing at latest by October 2022, and released to the public once it's fully functional.
 
-a) Back-end and Front-end of the forum (will NOT include: contract & rating system, polkadot.js intergration, teams-groups subscription implementation, XOR balance checker).	
+a) Back-end and Front-end of the forum (will NOT include: contract & rating system, polkadot.js integration, teams-groups subscription implementation, XOR balance checker).	
    Funding: 15% of the total amount
 
 b) Contract and rating for the Marketplace (Front-end and Back-end development).
    Funding: 7% of the total amount
 
-c) Polkadot.js intergration and XOR balance checker (Front-end and Back-end development).
+c) Polkadot.js integration and XOR balance checker (Front-end and Back-end development).
    Funding: 8% of the total amount
 
 d) Teams-Groups subscription implementation.
@@ -131,7 +131,7 @@ e) UI designing, creation of digital characters/personas, NFTs minting, servers 
 Once testing is ready, community will use the forum to check for any bugs.
 The 40% of the total funding will be proposed and given after the team delivers the main-net.
 
-f) Forum App development (Android & iOS) & wallet connect intergration (IF this feature is available to Fearless and Sora wallets by then).
+f) Forum App development (Android & iOS) & wallet connect integration (IF this feature is available to Fearless and Sora wallets by then).
    Funding: 10% of the total amount
 
 
@@ -139,7 +139,7 @@ f) Forum App development (Android & iOS) & wallet connect intergration (IF this 
 - A functional forum that will work as described above and that uses XOR as its native currency.
 - A section for the Sora ecosystem. Council members will be the admins of this section.
 - A contract system for the Marketplace.
-- Polkadot.js intergration and XOR balance checker.
+- Polkadot.js integration and XOR balance checker.
 
 
 **Submission Method (which folder on GitHub to submit a proposal to)**
