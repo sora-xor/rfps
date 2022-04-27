@@ -34,7 +34,8 @@ The basic features of this implementation will include:
 - Overview and discussions feature.
 
 ## Current roadblocks and barriers to success
-None.
+- Not sure whether there are proper types which can works well with polkadot.js to decode all SORA blocks.
+- Not implementation yet, we have to scan all the data to see whether SubSquare current code covers all the possible business.
 
 ## Evaluation Metrics and Criteria
 - Users can register account on https://sora.subsquare.io.
