@@ -7,6 +7,17 @@ governance, normalize the on-chain data and provide interfaces for community use
 workflow by discussion, voting, proposing, etc. We propose to integrate SORA solo chain which we think will greatly help 
 its governance workflow.
 
+The advantage of subsquare compared to polkassembly and commonwealth include:
+- More accurate on chain events monitor and extraction.
+- More detailed timeline.
+- Fast team response time.
+- All in all, the UI/UX is better.
+- We have plans to make it a web3 apps and decentralized, but it will be long termed work.
+- OpenSquare other products support in high priority, including off-chai voting, bounties, paid QA, etc.
+
+Please check features catalog doc [here](https://opensquare.feishu.cn/docs/doccnv8EGKC5QtegMnmHnNZcK5f) which includes 
+the basic features and advantage of subsquare.
+
 ## Proposal goals
 Enhance SORA solo chain's governance visualization and workflow.
 
@@ -20,7 +31,7 @@ The basic features of this implementation will include:
 
 - Democracy proposals/referendums visualization and discussion.
 - Council/Technical committee motion visualization and discussion.
-- Overview and discussions feature
+- Overview and discussions feature.
 
 ## Current roadblocks and barriers to success
 None.
