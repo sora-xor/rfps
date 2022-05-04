@@ -15,6 +15,7 @@ With the increased trading volume, this will have the collateral effect of reduc
 **Current Roadblocks and Barriers to Success**
 +Functionality not available in current Polkaswap iteration
 +UI requires an update to accomodate new functionality described
++Other issues that may arise by adding NFT compatibility 
 **Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
 Order buy, order sell, stop loss, take profit implemented in Polkaswap UI
 Underlying technology merged in SORA repositories
