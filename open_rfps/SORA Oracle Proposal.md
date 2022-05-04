@@ -28,7 +28,7 @@ Feeds differ from each other by:
 
 Every owner of the Sora node is able to become the oracle once they have enough money for staking.
 Every oracle should use their controller account to sign the observations. 
-Network validator approach can be precisely followedand account should own a controller account (for on-chain configuration) and stash account (for rewards).
+Network validator approach can be precisely followed and the account should own a controller account (for on-chain configuration) and stash account (for rewards).
 The oracle should listen to several data sources (e.g. CEXs) via HTTP or WS. API keys (credentials) are part of node configuration which is done via RPC call setup_oracle.
 
 Oracle is obliged to stay online and gather required observations (without credentials). 
