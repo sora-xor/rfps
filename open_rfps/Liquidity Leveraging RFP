@@ -1,0 +1,25 @@
+**Proposal Due Date**
+
+**Proposal Overview**
+As a tool to increase trade volume, Liquidity leveraging will allow for larger amounts of liquidity to be traded by users. 
+With liquidity leveraging, 80% of the XOR portion of a user's pool can be minted to leverage additional liquidity.
+**Proposal Goals (list with explanations where possible)**
+To allow for larger volumes of liquidity within Polkaswap, the implememtation of Leveraring by minting XOR should be added. 
+Up to 80% of the XOR in a pool a user has can be minted and loaned to provide additional liquidity. 
+Generated liquidity cannot be withdrawn by user leveraging until borrowed XOR has been paid back
+There is no interest generated on borrowed XOR for Liquidity leveraging
+**Scope of Work (describe the scope of work in as much detail as possible)**
++Implement aforementioned Liquidity Leveraging logic within Polkaswap liquidity source pallet, including collateral security and XOR minting
++Implement UI changes within Polkaswap to accomodate for this function, ideally within collapsable "Advanced Pooling" functions, with an attached disclaimer outlining the risks of leveraging liquidity
++Draft disclaimer outlining risks 
+**Current Roadblocks and Barriers to Success**
++Functionality not available in current Polkaswap iteration
++UI requires an update to accomodate new functionality described
+**Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
+Advanced pooling and Liquidity Leveraging implemented within Polkaswap UI
+Underlying technology merged within SORA repositories
+**Submission Requirements**
+Fulfill evaluation metrics and criteria.
+Pull requests to paths as outlined within Submission Method done before Due Date.
+**Submission Method (which folder on GitHub to submit a proposal to**
+https://github.com/sora-xor/rfps
