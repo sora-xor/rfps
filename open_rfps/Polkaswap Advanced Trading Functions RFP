@@ -1,0 +1,26 @@
+**Proposal Due Date**
+
+**Proposal Overview**
+In order to improve trade volume, the addition of advanced trading functions to Polkaswap should be implemented.
+**Proposal Goals (list with explanations where possible)**
+To encourage users with low capital to trade as frequently as possible, the implementation of the following functions should be added to Polkaswap
++Order buy
++Order sell
++Stop loss
++Take profit
+With the increased trading volume, this will have the collateral effect of reducing time for PSWAP rewards to vest
+**Scope of Work (describe the scope of work in as much detail as possible)**
++Implement the aforementioned functions to the Polkaswap backend
++Implement these functions to the Polkaswap UI under a collapsable menu labelled "Advanced Trading Functions"
+**Current Roadblocks and Barriers to Success**
++Functionality not available in current Polkaswap iteration
++UI requires an update to accomodate new functionality described
++Other issues that may arise by adding NFT compatibility 
+**Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
+Order buy, order sell, stop loss, take profit implemented in Polkaswap UI
+Underlying technology merged in SORA repositories
+**Submission Requirements**
+Fulfill evaluation metrics and criteria.
+Pull requests to paths as outlined within Submission Method.
+**Submission Method (which folder on GitHub to submit a proposal to)**
+https://github.com/sora-xor/rfps
