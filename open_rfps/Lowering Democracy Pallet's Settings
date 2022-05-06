@@ -10,7 +10,7 @@ Currently we have these problems with democracy pallet
 - Since we need techcommitte to fasttrack proposals, current democracy system comes across as centralized
 
 ## Proposal goals
-- Letting community members to propose proposals faster
+- Allowing community members to submit proposals faster
 - Lowering the delay for RFPs and payments
 - Making current democracy system more decentralized by not needing fasttrack from techcommitte
 - Making proposals more fair by keeping their vote treshold(SuperMajorityApprove/SimpleMajority) as default
