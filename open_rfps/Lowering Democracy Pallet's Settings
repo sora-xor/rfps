@@ -1,0 +1,33 @@
+## Due Date
+At next release
+
+## Overview
+Currently we have these problems with democracy pallet
+- Normal proposals are executing in 1 to 2.5 months if they go without fasttrack
+- Some tokens are locked at proposals queue due to long launch time period
+- We are forced to fasttrack proposals and this creates queues at system since council and techcommitte cant pass proposals fast enough and this causes delays for RFPs and payments.
+- Normally, important proposals like minting, runtime update proposals needs SuperMajorityApprove but since we fasttrack those, it becomes SimpleMajority
+- Since we need techcommitte to fasttrack proposals, current democracy system kinda centralized
+
+## Proposal goals
+- Letting community members to propose proposals faster
+- Lowering the delay for RFPs and payments
+- Making current democracy system more decentralized by not needing fasttrack from techcommitte
+- Making proposals more fair by keeping their vote treshold(SuperMajorityApprove/SimpleMajority) as default
+
+## Scope of work
+Chancing these settings at deomcracy pallet
+- Lowering launch period times
+- Lowering vote and execution time of proposals
+
+## Current roadblocks and barriers to success
+- Needing runtime update for these changes
+
+## Submission requirements
+None
+
+## Submission Method
+open_rfps
+
+## Budge Amount
+None
