@@ -13,7 +13,7 @@ Currently we have these problems with democracy pallet
 - Allowing community members to submit proposals faster
 - Lowering the delay for RFPs and payments
 - Making current democracy system more decentralized by not needing fasttrack from techcommitte
-- Making proposals more fair by keeping their vote treshold(SuperMajorityApprove/SimpleMajority) as default
+- Making proposals fairer by keeping their vote threshold(SuperMajorityApprove/SimpleMajority) as the default
 
 ## Scope of work
 Chancing these settings at deomcracy pallet
