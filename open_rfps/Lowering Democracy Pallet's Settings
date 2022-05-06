@@ -7,7 +7,7 @@ Currently we have these problems with democracy pallet
 - Some tokens are locked at proposals queue due to long launch time period
 - We are forced to fasttrack proposals and this creates queues at system since council and techcommitte cant pass proposals fast enough and this causes delays for RFPs and payments.
 - Normally, important proposals like minting, runtime update proposals needs SuperMajorityApprove but since we fasttrack those, it becomes SimpleMajority
-- Since we need techcommitte to fasttrack proposals, current democracy system kinda centralized
+- Since we need techcommitte to fasttrack proposals, current democracy system comes across as centralized
 
 ## Proposal goals
 - Letting community members to propose proposals faster
