@@ -16,9 +16,11 @@ Currently we have these problems with democracy pallet
 - Making proposals fairer by keeping their vote threshold(SuperMajorityApprove/SimpleMajority) as the default
 
 ## Scope of work
-Changing these settings on the democracy pallet
-- Lowering launch period times
-- Lowering vote and execution time of proposals
+1. Determining suitable numbers for settings
+2. Making remark proposal for community to approve
+3. Changing these settings on the democracy pallet
+  - Lowering launch period times
+  - Lowering vote and execution time of proposals
 
 ## Current roadblocks and barriers to success
 - Needing runtime update for these changes
