@@ -17,6 +17,10 @@ Currently we have these problems with democracy pallet
 
 ## Scope of work
 1. Determining suitable numbers for settings
+  I would like to offer these settings: (if i miss a setting, let me know)
+  - Launch time period: 3 days
+  - Voting period: 6 days
+  - Execution time: 1 days
 2. Making remark proposal for community to approve
 3. Changing these settings on the democracy pallet
   - Lowering launch period times
