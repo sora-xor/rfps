@@ -23,7 +23,7 @@ ADAR has;
 * Built on the SORA Network; a network in the Polkadot ecosystem.
 * Fully- compliant with local and international financial regulations, i.e. AML/CFT.
 
-**Why ADAR, Why Now? **
+<strong>**Why ADAR, Why Now? **</strong>
 
 ADAR is an Abed Group portfolio company. The Abed Group is a family office based in Barbados. One of its 
 pillars, Abed Ventures, empowers entrepreneurs to ideate, incubate and accelerate innovative Regulatory 
