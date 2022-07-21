@@ -1,10 +1,10 @@
 # Advanced Digital Asset Routing (ADAR) on SORA
 
-**Proposal Date**- 
+**Proposal Date** 
 
 July 22nd, 2022
 
-**Proposal Overview**- 
+**Proposal Overview** 
 
 [ADAR](https://adar.com/) (Advanced Digital Asset Routing) is requesting a grant of XSTUSD 150,000 from the SORA 
 community to help the company bring its product to its first paying customers and in doing so bring new 
@@ -16,14 +16,12 @@ transaction costs, without excessive paperwork and settlement times.
 
 ADAR has;
 
-
-
 * Single currency input, multiple currency output.
 * Negligible transaction costs, instant settlement, tamper and counterfeit resistance.
 * Built on the SORA Network; a network in the Polkadot ecosystem.
 * Fully- compliant with local and international financial regulations, i.e. AML/CFT.
 
-<strong>**Why ADAR, Why Now? **</strong>
+**Why ADAR, Why Now?**
 
 ADAR is an Abed Group portfolio company. The Abed Group is a family office based in Barbados. One of its 
 pillars, Abed Ventures, empowers entrepreneurs to ideate, incubate and accelerate innovative Regulatory 
@@ -37,7 +35,7 @@ Abed Ventures believes that a market downturn provides the best climate for star
 Market downturns eliminate inefficient and rent-seeking market players, while allowing true value-creating 
 companies to demonstrate their impact and potential. 
 
-**Proposal Goals**- 
+**Proposal Goals**
 
 Launch ADAR on the SORA network and activate the first paying customers.
 
@@ -53,40 +51,34 @@ using ADAR, this would translate into USD 150M in monthly transactions running o
 Subsequently expand the scope of ADAR to dividend payouts, airdrops and other mass distribution of assets and 
 other developments down the pipeline.
 
-**Scope of Work**- With a community grant of XSTUSD 150,000 ADAR will be able to launch its MVP and activate its 
-first paying customers. (_Refer to annex for further details_)
+**Scope of Work** With a community grant of XSTUSD 150,000 ADAR will be able to launch its MVP and activate its 
+first paying customers. (_Refer to product overview for further details_)
 
-**Current Roadblocks and Barriers to Success**- This technology is still under development. The implementation 
+**Current Roadblocks and Barriers to Success** This technology is still under development. The implementation 
 of this proposal is subject to community approval.
 
-**Evaluation Metrics and Criteria**-
+**Evaluation Metrics and Criteria**
 
 The definition of success for ADAR’s use of the community grant is to:
-
-
 
 * Finetune the ADAR product offering
 * Launch the ADAR product 
 * Activate ADAR’s first 2-5 paying customers
 * Sign a 36+ month Service Level Agreement with ADAR’s first 2-5 paying customers
 
-**Submission Requirements**- 
+**Submission Requirements** 
 
 Fulfil the Evaluation Metrics and Criteria before the Due Date.
 
-**Submission Method**- 
+**Submission Method** 
 
 [https://github.com/sora-xor/rfps/tree/master/open_rfps](https://github.com/sora-xor/rfps/tree/master/open_rfps)
 
-**Budget**- 
+**Budget** 
 
 XSTUSD 150,000
 
-**Pitch Deck**- 
+**[Pitch Deck](https://docs.google.com/presentation/d/1i6AdhPuCdAQgrs0NVMUo0fs7L8jJiFUv8H8qRg1-fgo/edit?usp=sharing)**
 
-[https://docs.google.com/presentation/d/1i6AdhPuCdAQgrs0NVMUo0fs7L8jJiFUv8H8qRg1-fgo/edit?usp=sharing](https://docs.google.com/presentation/d/1i6AdhPuCdAQgrs0NVMUo0fs7L8jJiFUv8H8qRg1-fgo/edit?usp=sharing)
-
-**Product Overview**- 
-
-[https://docs.google.com/document/d/1u_hXb7NWlpx-59uP1AFMD-aoymXOqFkV3MhE2KgqM-Q/edit?usp=sharing](https://docs.google.com/document/d/1u_hXb7NWlpx-59uP1AFMD-aoymXOqFkV3MhE2KgqM-Q/edit?usp=sharing)
+**[Product Overview](https://docs.google.com/document/d/1u_hXb7NWlpx-59uP1AFMD-aoymXOqFkV3MhE2KgqM-Q/edit?usp=sharing)**
 
