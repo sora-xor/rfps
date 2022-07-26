@@ -76,7 +76,14 @@ Fulfil the Evaluation Metrics and Criteria before the Due Date.
 
 **Budget** 
 
-XSTUSD 150,000
+XSTUSD 150,000 split into three milestones:
+
+* $50k released on completion of first market validation and product design finalisation (already completed)
+
+* $50k released on launch of MVP (in progress)
+
+* $50k released on signing of first two paying customers (in progress)
+
 
 **[Pitch Deck](https://docs.google.com/presentation/d/1i6AdhPuCdAQgrs0NVMUo0fs7L8jJiFUv8H8qRg1-fgo/edit?usp=sharing)**
 
