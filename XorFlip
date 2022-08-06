@@ -1,0 +1,22 @@
+Proposal due date: 12th of August 2022
+Proposal overview: Use this space to outline your proposal and what it is about
+Public Request for tenders by teams to Create and Launch a XOR coin flip game on Sora Network 50/50 odds of winning/losing
+Proposal goals: What does your proposal seek to achieve? How will it benefit the current technology and community if it is approved? (“Making me more money” is not a benefit)
+XOR Coin flip will bring a fun dapp to SORA where community members can try their luck in a transparent decentralised method where the player has no disadvantaged odds to the house.
+The game will bring more demand and utility to the XOR token and more transactions to the sora network.
+Scope of work: 
+On-chain game or feature development. Pallet?
+Use the graphics of sora.org. Redesign so one side is written SORA and the other is the logo.
+Integrate in SORA network
+Current roadblocks and barriers to success: 
+Finding a qualified developer. Substrate has all the required functions to build the dapp including the verifiable random function (VRF)
+- Making sure this dapp does not give SORA a negative/casino connotation
+Evaluation metrics and criteria: 
+The dapp requirements are as follows:
+Build a dapp that executes a 50/50 win/lose scenario, with a randomised outcome that pays out 2x the buy-in cost if the outcome is a win. The player received no payout if the outcome is a loss.
+Liquidity for the game to be provided  by SORA governance through minting XOR
+With 50/50 odds the cost to SORA governance would be net zero
+Game costs should be a fixed price to reduce the possibility of large outliers and irresponsible players.
+The goal is to have at least 1,000 additional transactions on the SORA network per day in the first 3 months, increasing to at least 10,000 transactions per day after 12 months.
+Submission requirements: Looking for 1 developer with Substrate experience, and 1 UI/UX designer.
+Submission method: https://github.com/sora-xor/rfps/tree/master/open_rfps
