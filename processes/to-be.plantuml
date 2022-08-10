@@ -1,0 +1,76 @@
+@startuml
+
+<style>
+legend {
+  FontSize 14
+  BackGroundColor White
+  Margin 5
+  Padding 5
+}
+</style>
+
+legend right
+    | Color | Type |
+    |<#LightGreen>| RFP repo |
+    |<#LightCoral>| Component repo |
+endlegend
+
+|User|
+start
+#LightGreen:Creates an issue using the Github form;
+|#Lavender| Community |
+#LightGreen:Grooming started\n(issue is constantly updated);
+
+repeat
+repeat while (Consencus between\nthe contributors is achieved?) is (no)
+->yes;
+#LightGreen:One community member (from technical committee)\n changes the status of the issue to `Executed`;
+
+note right
+  To simplify it makes sense 
+to make only two statuses:\n
+1. Pending
+2. Executed
+end note
+
+|#FloralWhite| CI |
+:Executes the extrinsic that has\nto be signed by the technical committee;
+
+repeat
+:Starts listening to the specic event;
+
+  repeat
+  |#LightBlue| Technical committee |
+  :Committee member signs the extrinsic;
+
+  note right
+    Transaction will only 
+    be executed after
+    the necessary ammount 
+    of signatures collected
+  end note
+
+  repeat while (Minimum amount of signs is collected?) is (no)
+->yes;
+
+| CI |
+
+repeat while (Success event is handled?) is (no)
+->yes;
+
+#LightGreen:Gets the issue values in the checkbox field\n(see [[https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema#checkboxes more]]); 
+#LightCoral:Depending on the selected checkboxes\nissues are created in the corresponding component repos\nreferencing the original one;
+
+|User|
+
+#LightCoral:Subscibe for the changes in the specific repo\n
+and is able to track the progress on \n
+kanban board;
+
+| CI |
+
+#LightCoral:Repo separate CI is executed;
+
+stop
+
+@enduml
