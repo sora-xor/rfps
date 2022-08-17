@@ -92,7 +92,9 @@ body:
         What part of the ecosystem does the proposal relates the most to ?
         Where should the implementation of the proposal be submitted ?
       options:
-        - Blockchain
+        - "Blockchain: Mainnet"
+        - "Blockchain: Kusama parachain"
+        - "Blockchain: Polkadot parachain"
         - Web
         - Mobile Wallet
         - Other
