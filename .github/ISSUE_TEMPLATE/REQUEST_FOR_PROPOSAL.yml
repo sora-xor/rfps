@@ -1,0 +1,118 @@
+name: "New Request for Proposal (RFP)"
+description: A clear and comprehensive description to ensure we can discuss and implement your proposal.
+title: "[RFP]: "
+labels: ["RFP"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let us guide you through the creation of the request for proposal that will ensure we can smoothly help you contribute to the SORA network :)
+    
+  - type: input
+    id: rfp-proposal-date
+    attributes:
+      label: Proposal Due Date
+      description: When should the proposal be voted upon ?
+      placeholder: Day Month Year
+    validations:
+      required: true
+   
+  - type: textarea
+    id: rfp-overview
+    attributes:
+      label: Proposal Overview
+      description: |
+        Tell us more about the proposal. 
+        How does it benefit the SORA ecosystem ? 
+        How different is it from what is already available in the ecosystem ?
+        How would this work and integrate into the SORA ecosystem ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: rfp-goal
+    attributes:
+      label: Proposal Goals
+      description: What is the goal of the proposal ? What problem does it solve ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: rfp-scope
+    attributes:
+      label: Scope of Work
+      description: Help us understand the scope and amount of work required to implement your proposal into the SORA ecosystem. You can go as detailed as required.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: rfp-roadblocks
+    attributes:
+      label: Current Roadblocks and Barriers to Success
+      description: |
+        What''s the catch in this ideal plan ? 
+        What should we pay special attention to when implementing the proposal ?
+        p.s.: No need to mention that the absence of the proposal is a barrier to success :P
+      placeholder: |
+        - ...
+        - ...
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: rfp-dod
+    attributes:
+      label: Evaluation Metrics and Criteria
+      description: |
+        Help us understand the Definition of Done. 
+        How and when could we consider the proposal to be completed and integrated into the SORA ecosystem ?
+      placeholder: |
+        1. Implement ...
+        2. Implement ...
+        3. Create ...
+        4. When ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: rfp-requirements
+    attributes:
+      label: Submission Requirements
+      description: What criteria should the submission fulfill to be reviewed and considered a success ?
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: rfp-method
+    attributes:
+      label: Submission Method
+      description: | 
+        What part of the ecosystem does the proposal relates the most to ?
+        Where should the implementation of the proposal be submitted ?
+      options:
+        - "Blockchain: Mainnet"
+        - "Blockchain: Kusama parachain"
+        - "Blockchain: Polkadot parachain"
+        - Web
+        - Mobile Wallet
+        - Other
+    validations:
+      required: true
+    
+  - type: input
+    id: rfp-project-date
+    attributes:
+      label: Project Due Date
+      description: When should the proposal be implemented to be considered a success ?
+      placeholder: Day Month Year
+
+  - type: textarea
+    id: rfp-budget
+    attributes:
+      label: Budget Amount
+      description: |
+        Help us understand how much would it cost to implement the proposal.
+        You can present a decomposition of the budget if the proposal would include several deliverables over time
+      
