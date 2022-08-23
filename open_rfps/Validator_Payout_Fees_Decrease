@@ -1,0 +1,10 @@
+    Proposal due date: 2022-08-23
+    Proposal overview: Decreasing validator payout fees at least tenfold down.
+    Proposal goals: Right now a validator with 10% commission is loosing money on payout for all his nominators. His VAL revards do not even cover the cost of the fee.
+    Scope of work: It should be just a change of parameters.
+    Current roadblocks and barriers to success: None afaik.
+    Evaluation metrics and criteria: Advantage would be that validators could do the payout for all of their nominators regularly and be also rewarded for their services sufficiently.
+    Submission requirements: None afaik.
+    Submission method: https://github.com/sora-xor/rfps/tree/master/open_rfps
+    Implementation due date inmediate.
+    No budget needed.
