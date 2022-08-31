@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Let us guide you through the creation of the request for proposal that will ensure we can smoothly help you contribute to the SORA network :)
+        Let us guide you through the creation of the request for proposal that will ensure we can help you contribute smoothly to the SORA network :)
     
   - type: input
     id: rfp-proposal-date
@@ -25,7 +25,7 @@ body:
       description: |
         Tell us more about the proposal. 
         How does it benefit the SORA ecosystem ? 
-        How different is it from what is already available in the ecosystem ?
+        How is it different from what is already available in the ecosystem ?
         How would this work and integrate into the SORA ecosystem ?
     validations:
       required: true
@@ -42,7 +42,7 @@ body:
     id: rfp-scope
     attributes:
       label: Scope of Work
-      description: Help us understand the scope and amount of work required to implement your proposal into the SORA ecosystem. You can go as detailed as required.
+      description: Help us understand the scope and amount of work required to implement your proposal into the SORA ecosystem. You can be as detailed as required.
     validations:
       required: true
       
@@ -51,8 +51,8 @@ body:
     attributes:
       label: Current Roadblocks and Barriers to Success
       description: |
-        What''s the catch in this ideal plan ? 
-        What should we pay special attention to when implementing the proposal ?
+        What's the catch in this ideal plan ? 
+        What should we pay special attention to when implementing this proposal ?
         p.s.: No need to mention that the absence of the proposal is a barrier to success :P
       placeholder: |
         - ...
@@ -89,7 +89,7 @@ body:
     attributes:
       label: Submission Method
       description: | 
-        What part of the ecosystem does the proposal relates the most to ?
+        What part of the ecosystem does the proposal relate the most to ?
         Where should the implementation of the proposal be submitted ?
       options:
         - "Blockchain: Mainnet"
@@ -113,6 +113,6 @@ body:
     attributes:
       label: Budget Amount
       description: |
-        Help us understand how much would it cost to implement the proposal.
+        Help us understand how much would it cost to implement the proposal. You can also include the amount of hours it would take to implement.
         You can present a decomposition of the budget if the proposal would include several deliverables over time
       
