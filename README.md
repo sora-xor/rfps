@@ -2,7 +2,8 @@
 
 SORA, Polkaswap, and other apps on the SORA network all follow a decentralized development process. This means that anyone can make proposals for new features, then proposals for implementation will come from teams that can implement those features, and the community will vote on the best proposal.
 
-To create an RFP, just create a pull request to add an RFP file in .md (markdown) format, under the `open_rfps` directory.
+- To make the process easier and more accessible, RFP will now be submitted as [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+- To create an RFP, navigate to the issues section, create a new issue, then click **Get Started** in the new "Request for Proposal" template. 
 
 RFPs should roughly follow the following format:
 
