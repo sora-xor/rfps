@@ -1,0 +1,150 @@
+**(Initial) Proposal Due Date**
+20th January, 2022
+
+**(UPDATED) Proposal Due Date**
+1st May, 2022
+
+**Proposal Overview**
+Creating a new decentralized forum that will have XOR as its native currency
+
+**Proposal Goals**
+The main goal is to create a new decentralized forum that will be bring new users and expand the decentralization of the SORA ecosystem. 
+The forum will not require emails, usernames, passwords or any kind of KYC for the registration. People will be able to register, login, post threads and comments 
+by only using their wallet that supports SORA network (polkadot.js). 
+
+There are various other crypto-forums/platforms (i.e. bitcointalk) that have many millions of registered users. A decentralized forum with a Marketplace will
+be something unique for the cryptospace.
+
+There will be many sections in the forum but the 3 very interesting ones will be:
+a) the Marketplace, where people will freely trade, buy and sell digital and non-digital goods using a contract system. Also, in the same section people
+will be able to offer & ask for services.
+
+b) the SORA section, where people will discuss about the SORA ecosystem, future upgrades, proposals and in general whatever is related to SORA.
+Elected members of the council will be the admins of this section.
+
+c) the Teams-Groups section. This section will be used as membership 'platform' that provides business tools for content creators, artists and others. 
+There won't be many Teams-Groups available, so being a Team-Group owner will be valuable.
+The existing groups will be sellable, so every Team-Group owner can sell his Group to someone else if they liked the offer.
+All the subscriptions for every Team-Group will be paid in XOR.
+
+Some of the Teams-Groups will be given for free to some of the most well-known content creators in the cryptospace (such as Youtubers and influencers).
+This section will help the forum and SORA as the Team-Group owners will advertise us to their fans.
+
+About the UI:
+Our vision is to create a digital city as background UI for the forum. As the users enter to a section, a digital car in the background will drive them
+to a different building in the city. 
+
+- Very interesting feature is that people will choose their own digital personas/characters among many we will create. These characters will be used as profile pictures.
+  Every user will be a citizen in the digital city.
+  
+- To give NFTs more utility, we will mint some of these personas as NFTs and we will reward the early-supporters/users of the forum. 
+  Also, some special characters will be created/and minted as NFTs, and will be given *only* to those who run validators that help to secure more the SORA network.
+  The users will be able to buy, sell and trade their digital personas with other users.
+
+The XOR will be used for all the payments in the forum (like subscriptions, paid stickers for the threads, teams-groups sales, special digital personas, etc).
+In order to prevent spam/fake accounts, every user will have to own at least 30-40$ worth of XOR to their address in order to be able to post threads and comments.
+
+The forum will run on the team's servers. All the data such as subscriptions, XOR balances, threads, posts and contracts will be stored also there.  
+At the same time though, as all the XOR addresses for the subscriptions and contracts between users will be showable in public, in the forum, everyone can see and verify 
+the data and the transactions with the SORA Blockchain. 
+
+With this budget, the team will have to run the forum for at least 2 years (starting from day 1 of the main-net). After this period of time, if the team wants, 
+we can keep on running for the forum, otherwise we will have to give all the files, url, brand (everything related to forum) to another team/company (based on the 
+community's decision).
+
+About the forum code & files:
+As it's risky for the SORA community to have in public the forum's code (another network could fork the forum for free and create their own version),
+we propose to share the code with Soramitsu (or any other company that SORA community trusts) before proposing for the funding of every milestone.
+After the forum have enough users and it's not risky for the community, we could publish the code, if the community decides such thing.
+All the data of the forum (all the files), will be stored as back-up every 4 months in our servers and also will be shared with Soramitsu (or any other company
+that SORA community trusts).
+
+KUSO project:
+
+Our team invites Euratek, a Swiss company that runs the KUSO project and has collaboration with the blockchain IT company SORAMITSU, to have their own role in our 
+forum. The current RFP will be updated so we provide more information about this collaboration.
+
+**Scope of Work (describe the scope of work in as much detail as possible)**
+All the technology that we may need to create the forum is available. Polkadot.js wallet seems to be compatible with whatever we have in our mind as team. 
+For the Front-end, the team will use Angular.
+For the Back-end, the team will use NodeJS.
+For the Mobile Forum App, the team will use Flutter.
+Would be great if we could use wallet connect for Fearless Wallet, Sora DAE and other mobile wallets. This hopefully will happen in the future (we added a wallet connect integration
+in the last milestone).
+
+
+**Current roadblocks**
+None
+
+
+**Evaluation metrics and criteria**
+
+- People will be able to post comments and threads by only using their wallets that support SORA network.
+
+- There will be sections such as SORA, Marketplace, Life, Games/NFTs, Cryptocurrencies, and others. Elected council members will be the admins of the SORA-section.
+
+- To prevent spam posts/threads, it will be required every user to hold at least 30-40$ worth of XOR to their address (the equivalent amount of $ may change based on 
+what community wants).
+
+- There will be an exclusive SORA section in the forum, so all the users can read about new updates and learn more about the network. The threads will be created by the 
+elected council members who will be the admins of this section.
+
+- We will create a contract and rating system for the Marketplace section, people will give a score for the quality of the products/services of the vendors after every deal.
+
+- The contracts will be off-chain data and will be stored in a server. The users will be able to view the contracts between other users in the forum.
+The contracts will include the payment address, the amount in XOR and the terms of the deal.
+
+- There will be teams-groups owned by influencers/youtubers in order to bring more users, people will pay for subscriptions the same way they pay
+to other platforms (but only in XOR), so they have access to every group.
+
+- Subscriptions, group sales, special digital characters/personas, stickers, and in general everything in the forum will be paid only with XOR.
+
+- We will be able to blacklist an address if they violated the T.O.S.
+
+- Sora Parliament will always be helpful with their new ideas for the forum. We have an idea about SORA Parliament being the escrow service for the users deals.
+This of course will have to be decided and voted by the community. 
+
+- There will be various changes to the UI as the time goes by based on what community asks/likes.
+
+- Some of the funds will be used to protect the servers from DDOS attacks, hopefully no additional resources will be needed.
+
+
+**Milestones** 
+
+Project to begin as soon as possible, be ready for testing at latest by October 2022, and released to the public once it's fully functional.
+
+a) Back-end and Front-end of the forum (will NOT include: contract & rating system, polkadot.js integration, teams-groups subscription implementation, XOR balance checker).	
+   Funding: 15% of the total amount
+
+b) Contract and rating for the Marketplace (Front-end and Back-end development).
+   Funding: 7% of the total amount
+
+c) Polkadot.js integration and XOR balance checker (Front-end and Back-end development).
+   Funding: 8% of the total amount
+
+d) Teams-Groups subscription implementation.
+   Funding: 6% of the total amount
+
+e) UI designing, creation of digital characters/personas, NFTs minting, servers expenses, promo videos.
+   Funding: 14% of the total amount
+
+Once testing is ready, community will use the forum to check for any bugs.
+The 40% of the total funding will be proposed and given after the team delivers the main-net.
+
+f) Forum App development (Android & iOS) & wallet connect integration (IF this feature is available to Fearless and Sora wallets by then).
+   Funding: 10% of the total amount
+
+
+**Deliverables**
+- A functional forum that will work as described above and that uses XOR as its native currency.
+- A section for the Sora ecosystem. Council members will be the admins of this section.
+- A contract system for the Marketplace.
+- Polkadot.js integration and XOR balance checker.
+
+
+**Submission Method (which folder on GitHub to submit a proposal to)**
+https://github.com/sora-xor/rfps/tree/master/open_rfps
+
+
+**Budget amount**
+250,000 XSTUSD
