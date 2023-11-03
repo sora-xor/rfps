@@ -1,0 +1,28 @@
+**Proposal Due Date**
+January 2022
+**Proposal Overview**
+A bridge between BSC and SORA networks.
+
+**Proposal Goals (list with explanations where possible)**
+We will have a bridge between SORA and BSC networks. 
+
+**Scope of Work (describe the scope of work in as much detail as possible)**
+Build a new bridge the same as between ETH and SORA networks but for BSC and SORA networks.
+Integration of new bridge with polkaswap.io
+
+**Current Roadblocks and Barriers to Success**
+Bridge between ETH and SORA networks has high ETH fees, and is easy to fail when ETH gas increases.
+Many people don't want to use Polkaswap because of ETH fees.
+A bridge between BSC and SORA networks can help many people easy to use Polkaswap and SORA Ecosystem.
+
+**Evaluation Metrics and Criteria (definition of done should be as clear as possible)**
+Users can transfer assets from BSC network to SORA network and SORA network to BSC network with a new bridge on Polkaswap.io.
+
+**Submission Requirements**
+Fulfill evaluation metrics and criteria.
+Pull requests to paths as outlined within Submission Method done before Due Date.
+
+**Submission Method (which folder on GitHub to submit a proposal to)** [https://github.com/sora-xor/rfps](https://github.com/sora-xor/rfps)
+
+**Project Due Date**
+January 2022
