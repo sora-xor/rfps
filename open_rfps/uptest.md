@@ -56,8 +56,9 @@ Receivers XOR address: cnX41CMxsJdkxL4YGTrjiVFHVwTk61yrz5mAcqgJmBA7peXng
 -  Detect important storage faster
 -  Prevent more breaking changes  
 
-## Submission requirements: 
+## Submission requirements/method: 
   -  Publish on https://github.com/uptest-sc/uptest && https://crates.io/crates/libuptest
+  -  Each milestone will be published as its own release  
 
 ## Current Roadblocks and Barriers to Success
 Custom chain types not yet supported is slowing functionality down, therefor getting libuptest fully compatible with Sora's metadat is a key m1 features.
