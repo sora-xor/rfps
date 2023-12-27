@@ -49,7 +49,7 @@ Total amount of hours(0+10+30+30+30): 100
 
 ## Payment terms:
 USD price of each milestone to be converted into XOR at delivery. 
-Receivers XOR address: oFFniTXNGeA9b8W62e1gsvz6zHPAqH4MfdZ79JbbvWvNxsfNc
+Receivers XOR address: cnX41CMxsJdkxL4YGTrjiVFHVwTk61yrz5mAcqgJmBA7peXng
 
 ## Proposal goals:
 -  Detect important storage faster
