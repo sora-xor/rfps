@@ -1,7 +1,6 @@
 ## Proposal Due Date: December 2023/January 2023
 ## Project Due Date: Mars 2024
 
-
 ## Duration: 2 months
 ## Amount of hours: 211 hours
 ## Cost per hour: 100 USD
@@ -59,3 +58,7 @@ Receivers XOR address: cnX41CMxsJdkxL4YGTrjiVFHVwTk61yrz5mAcqgJmBA7peXng
 
 ## Submission requirements: 
   -  Publish on https://github.com/uptest-sc/uptest && https://crates.io/crates/libuptest
+
+## Current Roadblocks and Barriers to Success
+Custom chain types not yet supported is slowing functionality down, therefor getting libuptest fully compatible with Sora's metadat is a key m1 features.
+
